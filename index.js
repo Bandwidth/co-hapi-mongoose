@@ -1,8 +1,16 @@
 "use strict";
+let Joi = require("joi");
+
+let optionsSchema = Joi.object({
+  connectionString: Joi.string(),
+  options: Joi.object()
+});
+
 let mongoose = require("mongoose");
 require("mongoose-q")(mongoose);
 
 module.exports.register = function*(plugin, options){
+  Joi.assert(options, optionsSchema);
   if(options.connectionString){
     mongoose.connect(options.connectionString, options.options || {});
   }
