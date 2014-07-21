@@ -1,0 +1,31 @@
+{
+  "name": "co-hapi-mongoose",
+  "version": "0.0.0",
+  "description": "This is hapi plugins which adds mongoose support",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --harmony"
+  },
+  "keywords": [
+    "hapi",
+    "co-hapi",
+    "co",
+    "module"
+  ],
+  "author": {
+    "name": "avbel"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^3.8.13",
+    "mongoose-q": "^0.0.10"
+  },
+  "devDependencies": {
+    "co": "^3.0.6",
+    "co-hapi": "0.0.8",
+    "co-mocha": "0.0.4",
+    "hapi": "^6.2.0",
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  }
+}
