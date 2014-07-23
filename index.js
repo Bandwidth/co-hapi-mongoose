@@ -12,6 +12,7 @@ require("mongoose-q")(mongoose);
 module.exports.register = function*(plugin, options){
   Joi.assert(options, optionsSchema);
   if(options.connectionString){
+    yield mongoose.disconnect.bind(mongoose);
     mongoose.connect(options.connectionString, options.options || {});
   }
   plugin.expose("mongoose", mongoose);
