@@ -21,3 +21,5 @@ npm-debug.log
 # Utilities
 .jshintrc
 .travis.yml
+*~
+*.swp
