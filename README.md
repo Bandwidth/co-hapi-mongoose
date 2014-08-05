@@ -3,6 +3,7 @@ mongoose
 [![Build](https://travis-ci.org/avbel/mongoose.png)](https://travis-ci.org/avbel/mongoose)
 [![Dependencies](https://david-dm.org/avbel/mongoose.png)](https://david-dm.org/avbel/mongoose)
 
+
 This is hapi plugins which adds mongoose support to the app. 
 ## Dependencies
 Module `co-hapi` is required to use this plugin.
