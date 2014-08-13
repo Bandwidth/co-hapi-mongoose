@@ -1,7 +1,7 @@
-mongoose
+co-hapi-mongoose
 ===========
-[![Build](https://travis-ci.org/avbel/mongoose.png)](https://travis-ci.org/avbel/mongoose)
-[![Dependencies](https://david-dm.org/avbel/mongoose.png)](https://david-dm.org/avbel/mongoose)
+[![Build](https://travis-ci.org/bandwidthcom/co-hapi-mongoose.png)](https://travis-ci.org/bandwidthcom/mongoose)
+[![Dependencies](https://david-dm.org/bandwidthcom/co-hapi-mongoose.png)](https://david-dm.org/bandwidthcom/mongoose)
 
 
 This is hapi plugins which adds mongoose support to the app. You can get access to mongoose instance via `server.plugins["co-hapi-mongoose"].mongoose`.
