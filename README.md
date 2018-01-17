@@ -1,3 +1,5 @@
+# ⚠️ DEPRECATED⚠️ 
+
 co-hapi-mongoose
 ===========
 [![Build](https://travis-ci.org/bandwidthcom/co-hapi-mongoose.png)](https://travis-ci.org/bandwidthcom/mongoose)
